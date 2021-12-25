@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallery{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.gallery .photo{
+    position: relative;
+    height: 690px;
+}
+.gallery .photo img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 2s;
+}
+.gallery .photo img.active{
+    opacity: 1;
+}

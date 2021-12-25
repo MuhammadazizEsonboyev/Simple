@@ -1,0 +1,13 @@
+.item {
+    width: 200px;
+    height: 200px;
+    background: #0c9de0;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.item span {
+    font-size: 50px;
+    margin: auto;
+    color: #fff;
+}

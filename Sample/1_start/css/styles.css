@@ -1,0 +1,9 @@
+html, body{
+    margin: 0;
+}
+.text {
+	border: 1px solid black;
+	width: 200px;
+	height: 40px;
+	margin-left: 10px;
+}
